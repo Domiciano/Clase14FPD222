@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.homebar{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 8px;
+}
+
+.homebar li{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+}
+.homebar li:hover{
+    background-color: dodgerblue;
+}
+
+.lightbackground{
+    background-color: #F4F4F4;
+}
+
+.darkbackground{
+    background-color: #282828;
+}
+
+.sidemenu{
+    display: flex;
+    flex-direction: column;
+    width: 0px;
+    position: fixed;
+    top: 40px;
+    bottom: 0px;
+    transition: 0.5s;
+    overflow-x: hidden;
+}
+
+.sidemenu li{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    gap: 8px;
+}
+
+.sidemenu li:hover{
+    background-color: dodgerblue;
+}
+
+.barmenu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.content{
+    display: flex;
+    background-color: #F4F4F4;
+    position: fixed;
+    top: 48px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    transition: 0.5s;
+}
+
+#addPost{
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    background-color: cornflowerblue;
+    border: 0px solid white;
+    border-radius: 32px;
+    bottom: 32px;
+    right: 32px;
+}
+
+#addPost:hover{
+    background-color: blue;
+}
