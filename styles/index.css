@@ -67,6 +67,7 @@
 
 .content{
     display: flex;
+    flex-direction: column;
     background-color: #F4F4F4;
     position: fixed;
     top: 48px;
