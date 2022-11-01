@@ -4,6 +4,11 @@ const content = document.getElementById('content');
 const addPost = document.getElementById('addPost');
 const localStorage = window.localStorage;
 
+let currentUser = localStorage.getItem("currentUser");
+if(currentUser === null){
+    window.location.href = "login.html";
+}
+
 
 function loadPosts(json){
     console.log(json);

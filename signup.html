@@ -12,15 +12,17 @@
     <div class="signup">
 
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Logo_de_la_Universidad_ICESI.svg/1024px-Logo_de_la_Universidad_ICESI.svg.png">
-        <input type="text" placeholder="Nombre">
-        <input type="text" placeholder="Correo">
-        <input type="text" placeholder="Password">
-        <input type="text" placeholder="Vuelva a escribir el password">
+        <input id="nameInput" type="text" placeholder="Nombre">
+        <input id="emailInput" type="text" placeholder="Correo">
+        <input id="passInput" type="text" placeholder="Password">
+        <input id="repassInput" type="text" placeholder="Vuelva a escribir el password">
 
-        <button class="signupButton">Registrar</button>
+        <button id="signupBTN" class="signupButton">Registrar</button>
 
         <a href="login.html">Ya tengo cuenta, quiero iniciar sesión</a>
     </div>
     
 </body>
+<script src="model/User.js"></script>
+<script src="scripts/signup.js"></script>
 </html>
